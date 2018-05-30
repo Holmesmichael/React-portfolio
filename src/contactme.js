@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { NavLink, Switch, Route } from 'react-router-dom'
+import { SocialIcon } from 'react-social-icons';
+
 
 class Contactme extends Component {
   render() {
@@ -8,6 +9,7 @@ class Contactme extends Component {
       <div className="contact">
         <h3>Contact Me</h3>
         <p>You can reach me via email: <strong>Holmes.M.Andrew@gmail.com</strong></p>
+        <SocialIcon url="http://github.com/Holmesmichael" />  <SocialIcon url="http://instagram.com/holmes__michael/?hl=en" />
       </div>
     );
   }

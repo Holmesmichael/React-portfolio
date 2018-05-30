@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { NavLink, Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import Header from './header.js';
 import Experience from './experience.js';
 import Education from './education.js';

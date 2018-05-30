@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import devcall from './rsz_devcall_353x419.png';
-import rps from './rsz_1rps_353x419.png';
-import outdoorfilm from './rsz_outdoorfilm_353x419.png';
-import naturescape from './naturescape_2_70.png';
+import './rsz_devcall_353x419.png';
+import './rsz_1rps_353x419.png';
+import './rsz_outdoorfilm_353x419.png';
+import './naturescape_2_70.png';
 
 
 class Experience extends Component {
